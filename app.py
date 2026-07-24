@@ -86,8 +86,11 @@ def fetch_all_activities(access_token, after_epoch):
             headers=headers,
             params={"after": after_epoch, "page": page, "per_page": per_page},
         )
+        print(resp.status_code)
+        print(resp.text)
         resp.raise_for_status()
         batch = resp.json()
+
         if not batch:
             break
         activities.extend(batch)
