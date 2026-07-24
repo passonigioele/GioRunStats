@@ -22,7 +22,7 @@ import requests
 
 REDIRECT_PORT = 8000
 REDIRECT_URI = f"http://localhost:{REDIRECT_PORT}/authorized"
-SCOPE = "activity:read_all"
+SCOPE = "read_all,activity:read_all"
 
 auth_code = {}
 
