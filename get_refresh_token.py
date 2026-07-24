@@ -65,7 +65,7 @@ def main():
                 "client_id": client_id,
                 "response_type": "code",
                 "redirect_uri": REDIRECT_URI,
-                "approval_prompt": "auto",
+                "approval_prompt": "force",
                 "scope": SCOPE,
             }
         )
