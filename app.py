@@ -28,7 +28,6 @@ import requests
 import streamlit as st
 import plotly.express as px
 
-get_refresh_token.py
 
 STRAVA_TOKEN_URL = "https://www.strava.com/oauth/token"
 STRAVA_ACTIVITIES_URL = "https://www.strava.com/api/v3/athlete/activities"
