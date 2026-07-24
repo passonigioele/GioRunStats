@@ -301,5 +301,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-print(resp.status_code)
-print(resp.text)
